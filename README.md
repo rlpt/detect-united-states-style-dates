@@ -1,12 +1,12 @@
 # Detect United States style dates
 
-Small function which will return `true` if the browser will render a date in MDY style using locale format. e.g
+Small function which will return `true` if the browser renders a date in MDY style when using locale format. e.g
 
 01/31/2020 -> returns `true`
 
 31/01/2020 -> returns `false`
 
-#Devices tested
+# Devices tested
 
 Code was tested by switching devices from UK (en-GB) to US (en-US).
 
