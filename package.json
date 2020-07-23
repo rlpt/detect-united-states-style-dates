@@ -1,0 +1,14 @@
+{
+  "name": "detect-united-states-style-dates",
+  "version": "1.0.0",
+  "description": "Detect if the js environment uses dd/mm/yyyy or mm/dd/yyyy for dates",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "author": "Richard Targett <richard.targett@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "jest-cli": "^26.0.1"
+  }
+}
