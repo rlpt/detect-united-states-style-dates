@@ -6,6 +6,19 @@ Small function which will return `true` if the browser renders a date in MDY sty
 
 31/01/2020 -> returns `false`
 
+# Installation and usage
+
+`npm install detect-united-states-style-dates`
+
+```js
+import dateFormatDetect from 'detect-united-states-style-dates'
+
+if(dateFormatDetect()) {
+  // date format is MDY 
+}
+```
+
+
 # Devices tested
 
 Code was tested by switching devices from UK (en-GB) to US (en-US).
